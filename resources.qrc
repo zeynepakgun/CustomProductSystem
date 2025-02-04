@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/eye.png</file>
+        <file>icons/eye_open.png</file>
+        <file>icons/back.jpg</file>
+        <file>icons/background.png</file>
+        <file>icons/logo2.jpeg</file>
+        <file>icons/mepsan-logo-1.webp</file>
+    </qresource>
+</RCC>

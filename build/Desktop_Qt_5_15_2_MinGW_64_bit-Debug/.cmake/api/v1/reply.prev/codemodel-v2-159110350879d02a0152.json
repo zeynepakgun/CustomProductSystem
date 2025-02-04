@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0ca5e4865e83eaf60a4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CustomProductSystem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CustomProductSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CustomProductSystem-Debug-197f6642891f0cd9dadb.json",
+					"name" : "CustomProductSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CustomProductSystem_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CustomProductSystem_autogen-Debug-da3c1e65675ddd524b96.json",
+					"name" : "CustomProductSystem_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CustomProductSystem_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CustomProductSystem_autogen_timestamp_deps-Debug-c1eb18b3d5574951e7fe.json",
+					"name" : "CustomProductSystem_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mthnd/Desktop/Qt.Case/CustomProductSystem/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/mthnd/Desktop/Qt.Case/CustomProductSystem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

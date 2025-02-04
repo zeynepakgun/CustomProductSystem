@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUpForm</class>
+ <widget class="QWidget" name="SignUpForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLineEdit" name="enterName">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>80</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>İsminizi giriniz</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterSurname">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>120</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Soyadınızı giriniz</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterNumberPlate">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Plakanızı giriniz</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterPhoneNumber">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>200</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Telefonunuzu giriniz </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterPasswordSignUp">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>240</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Şifrenizi giriniz</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterPasswordConfirm">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>280</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Şifrenizi doğrulayınız</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signUpButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>330</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(252, 252, 252);
+</string>
+   </property>
+   <property name="text">
+    <string>Kayıt ol!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eyeButtonSignUp">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>280</y>
+     <width>21</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterBalance">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>40</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;  
+border: 1px solid #afaaa3;  
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Bakiyenizi Giriniz</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>10</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/icons/icons/logo2.jpeg);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
